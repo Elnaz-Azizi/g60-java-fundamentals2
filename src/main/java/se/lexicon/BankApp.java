@@ -17,6 +17,6 @@ public class BankApp {
 
         // Static DATA
        BankAccount.setInterestRate(3.2);
-       // System.out.println("The bank's Interest rate is: " + BankAccount.interestRate + "%");
+
     }
 }

@@ -13,7 +13,7 @@ public class BankAccount {
     //3. Instance Methods
     void deposit(double amount) {
         this.balance += amount;
-        System.out.println(accountHolder + " just deposited " + amount);
+        System.out.println(accountHolder + " deposited " + amount);
     }
 
     //4. Static Methods
