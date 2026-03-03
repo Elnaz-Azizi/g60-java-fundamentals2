@@ -24,7 +24,7 @@ public class MathOperations {
     public static void main(String[] args) {
 
         // 1. ADD TWO INTEGERS
-        int intResult = add(10,20);
+        int intResult = add(10, 20);
         System.out.println("Adding two integers (10 + 20): " + intResult);
 
 
