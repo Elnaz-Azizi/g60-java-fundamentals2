@@ -118,8 +118,8 @@ public class PaymentProcessor {
     }
 
     // Process Bank Transfer
-    public static void processPayment(String bankAccount, String swift, double amount) {
-        System.out.println("Processing Bank Transfer to: " + bankAccount);
+    public static void processPayment(String bankAccount, String swift, double amount, String description) {
+        System.out.println("Processing Bank Transfer to: " + bankAccount + " for " + description);
     }
 }
 ```
